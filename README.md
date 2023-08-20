@@ -16,7 +16,7 @@ Para instalar o TypeScript e o Sass, deve-se usar os comandos:
 
 ```sh
 $ npm install -g typescript
-npm install -g sass
+$ npm install -g sass
 ```
 
 Com o TypeScript instalado, basta criar, se direcionar para a pasta do projeto e utilizar o seguinte comando para criar um arquivo *tsconfig.json* completo:
