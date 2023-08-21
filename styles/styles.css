@@ -1,0 +1,66 @@
+[id~=Row] {
+  border: 1px #000 solid;
+}
+
+body {
+  background-image: linear-gradient(to right, #d2466a, #d54fb2);
+  top: 50%;
+  transform: translateY(20%);
+  position: relative;
+}
+body section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 450px;
+  width: 400px;
+  -webkit-appearance: none;
+  -webkit-appearance-margin: 0;
+}
+body section input[type=number] {
+  -moz-appearance: textfield;
+}
+body section #calcArea {
+  background-color: #fdfbeb;
+  border: 1px #000 solid;
+  height: inherit;
+  width: inherit;
+}
+body section #displayArea {
+  background-color: white;
+  border: 1px #dbd6af solid;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  width: 380px;
+}
+body section #displayArea #display #displayNum {
+  border: none;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 373px;
+}
+body section #buttonArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  height: 400px;
+}
+body section #buttonArea .button {
+  border: 1px #000 solid;
+  width: 80px;
+  height: 50px;
+}
+body section #buttonArea .buttonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  width: 370px;
+}
+
+/*# sourceMappingURL=styles.css.map */
