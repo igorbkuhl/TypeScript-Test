@@ -1,3 +1,60 @@
+$black-border: 1px #000 solid
+
+[id~="Row"]
+            border: $black-border
+
+    
 body
-    display: flex
-    justify-content: center
+    background-image: linear-gradient(to right, #d2466a, #d54fb2)
+    top: 50%
+    transform: translateY(20%)
+    position: relative
+    section
+        display: flex
+        justify-content: center
+        margin: auto
+        height: 450px
+        width: 400px
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button
+        -webkit-appearance: none
+            margin: 0
+        input[type=number]
+            -moz-appearance: textfield
+        #calcArea
+            background-color: #fdfbeb
+            border: $black-border
+            height: inherit
+            width: inherit
+        #displayArea
+            background-color: white
+            border: 1px #dbd6af solid
+            display: flex
+            justify-content: center
+            margin: auto
+            margin-top: 10px
+            height: 50px
+            width: 380px
+            #display
+                #displayNum
+                    border: none
+                    margin-bottom: 10px
+                    height: 20px
+                    width: 373px
+        #buttonArea
+            display: flex
+            flex-direction: column
+            justify-content: center
+            padding: 10px
+            text-align: center
+            height: 400px
+            .button
+                border: $black-border
+                width: 80px
+                height: 50px
+            .buttonRow
+                display: flex
+                flex-direction: row
+                justify-content: space-around
+                margin-bottom: 30px
+                width: 370px
