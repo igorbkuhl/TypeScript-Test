@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testes com TS e Sass</title>
-    <link rel="stylesheet" href="styles/styles.sass">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/calculator_favicon.png">
 </head>
 <body>
-    <input id="button" type="button" value="clica aí">
+    <section>
+        <div id="calcArea">
+            <div id="displayArea">
+                <div id="display">
+                    <input type="number" name="display" id="displayNum" disabled>
+                </div>
+            </div>
+            <div id="buttonArea">
+                <div id="firstRow" class="buttonRow">
+                    <input type="button" value="9" id="btn9" class="button">
+                    <input type="button" value="8" id="btn8" class="button">
+                    <input type="button" value="7" id="btn7" class="button">
+                    <input type="button" value="&divide;" id="division" class="button">
+                </div>
+                <div id="secondRow" class="buttonRow">
+                    <input type="button" value="6" id="btn6" class="button">
+                    <input type="button" value="5" id="btn5" class="button">
+                    <input type="button" value="4" id="btn4" class="button">
+                    <input type="button" value="&times;" id="multi" class="button">
+                </div>
+                <div id="thirdRow" class="buttonRow">
+                    <input type="button" value="3" id="btn3" class="button">
+                    <input type="button" value="2" id="btn2" class="button">
+                    <input type="button" value="1" id="btn1" class="button">
+                    <input type="button" value="-" id="minus" class="button">
+                </div>
+                <div id="fourthRow" class="buttonRow">
+                    <input type="button" value="0" id="btn0" class="button">
+                    <input type="button" value="." id="pointBtn" class="button">
+                    <input type="button" value="=" id="equalsBtn" class="button">
+                    <input type="button" value="+" id="plus" class="button">
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="dist/index.js"></script>
 </body>
 </html>
